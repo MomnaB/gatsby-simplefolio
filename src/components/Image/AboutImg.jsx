@@ -33,9 +33,9 @@ const AboutImg = ({ filename, alt }) => (
   />
 );
 
-AboutImg.propTypes = {
-  filename: PropTypes.string,
-  alt: PropTypes.string,
-};
+// AboutImg.propTypes = {
+//   filename: PropTypes.string,
+//   alt: PropTypes.string,
+// };
 
 export default AboutImg;

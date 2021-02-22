@@ -33,9 +33,9 @@ const ProjectImg = ({ filename, alt }) => (
   />
 );
 
-ProjectImg.propTypes = {
-  filename: PropTypes.string,
-  alt: PropTypes.string,
-};
+// ProjectImg.propTypes = {
+//   filename: PropTypes.string,
+//   alt: PropTypes.string,
+// };
 
 export default ProjectImg;

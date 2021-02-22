@@ -2,56 +2,56 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Momna Bashir Portfolio', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'I am',
+  name: 'Momna',
+  subtitle: 'I am a mern stack developer.',
+  cta: 'Know Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: '',
+  paragraphOne: 'My name is Momna Bashir.',
+  paragraphTwo: 'I am a mern stack developer.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume: 'https://ecommerce-project-3-momna.netlify.app/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/MomnaB/MERNAPP-1', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/MomnaB/meal-finder-app.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/MomnaB/React-Ecommrace-master.git', // if no repo, the button will not show up
   },
 ];
 
@@ -68,21 +68,21 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://github.com/MomnaB/todo-app-final.git',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://github.com/MomnaB/meal-finder-app.git',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://github.com/MomnaB/todo-app-final.git',
     },
     {
       id: nanoid(),
-      name: 'github',
+      name: '',
       url: '',
     },
   ],

@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+// import ProjectImg from '../Image/ProjectImg';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -83,7 +83,7 @@ const Projects = () => {
                       <a
                         href={url || '#!'}
                         target="_blank"
-                        aria-label="Project Link"
+                        aria-label=""
                         rel="noopener noreferrer"
                       >
                         <Tilt
@@ -99,9 +99,9 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          {/* <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
-                          </div>
+                          </div> */}
                         </Tilt>
                       </a>
                     </div>
