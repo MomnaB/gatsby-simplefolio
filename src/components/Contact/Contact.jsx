@@ -19,7 +19,7 @@ const Contact = () => {
             </p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel=""
               className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : 'https://github.com/MomnaB/React-Ecommrace-master.git'}
             >
